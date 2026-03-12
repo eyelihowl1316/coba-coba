@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 1 HTML</title>
+    <style>
+        .table1{
+            font-family: 'Times New Roman', Times, serif;
+            table-layout: auto;
+            width: 50%; 
+            border-collapse: collapse;     
+        }
+
+        .table1 td, .table1 th{
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        .table1 th{
+            background-color: #3A9AFF;
+            color: white;
+        }
+
+        .table2{
+            border-collapse: collapse;
+            width: 50%;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .table2 td, .table2 th{
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        .judul{
+            background-color: #3A9AFF;
+            color: white;
+            font-weight: bold;
+        }
+
+        .table3{
+            border-collapse: collapse;
+            width: 50%;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .table3 td, .table3 th{
+            border: 1px solid black;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <h2>Table 1</h2>
+
+    <table class="table1">
+        <tr>
+            <th>Hari</th>
+            <th>Waktu</th>
+            <th>Mata Kuliah</th>
+            <th>Dosen</th>
+        </tr>
+        <tr>
+            <td>Senin</td>
+            <td>08:00 - 10:00</td>
+            <td>Kalkulus</td>
+            <td>Prof. Ahmad</td>
+        </tr>
+        <tr>
+            <td>Selasa</td>
+            <td>09:00 - 11:00</td>
+            <td>Algoritma dan Struktur Data</td>
+            <td>Dr. Budi</td>
+        </tr>
+        <tr>
+            <td>Rabu</td>
+            <td>10:00 - 12:00</td>
+            <td>Pemrograman Web</td>
+            <td>Dr. Cindy</td>
+        </tr>
+        <tr>
+            <td>Kamis</td>
+            <td>08:00 - 10:00</td>
+            <td>Jaringan Komputer</td>
+            <td>Prof. Elsa</td>
+        </tr>
+        <tr>
+            <td>Jumat</td>
+            <td>13:00 - 15:00</td>
+            <td>Basis Data</td>
+            <td>Dr. Farhan</td>
+        </tr>
+    </table>
+    
+    <h2>Table 2</h2>
+    <table class="table2">
+    <tr class="judul"><td colspan="4">Laporan Mahasisa</td></tr>
+    
+
+    <tr class="section"></tr>
+    <td colspan="2">Nama</td>
+    <td colspan="2">Alamat</td>
+
+    <tr>
+        <td>Nama Depan</td>
+        <td>Nama Belakang</td>
+        <td>Jalan</td>
+        <td>Kota</td>
+    </tr>
+
+    <tr>
+        <td>Raka</td>
+        <td>Gibran Buming</td>
+        <td>Sudirman</td>
+        <td>Bandung</td>
+    </tr>
+
+    <tr class="section"></tr>
+    <td colspan="4">Hasil Studi</td>
+    
+    <tr>
+        <td colspan="3">Mata Kuliah</td>
+        <td>Nilai</td>
+    </tr>
+
+    <tr>
+        <td colspan="3">Matematika</td>
+        <td>A</td>
+    </tr>
+
+    <tr>
+        <td colspan="3">Fisika</td>
+        <td>B</td>
+    </tr>
+
+    <tr class="section">
+        <td colspan="4">Catatan Tambahan</td>
+    </tr>
+
+    <tr>
+        <td colspan="4">Mahasiswa memiliki ketertarikan yang tinggi dalam kegiatam ekstrakulikuler.</td>
+    </tr>
+    </table>  
+
+    <h2>Table 3</h2>
+
+    <table class="table3">
+        <tr class="judul">
+            <th rowspan="3">No</th>
+            <th rowspan="3">Nama</th>
+            <th colspan="6">Hasil Ujian</th>
+            <th rowspan="3">Keterangan</th>
+        </tr>
+
+        <tr class="judul">
+            <th colspan="2">HTML</th>
+            <th colspan="2">CSS</th>
+            <th colspan="2">JavaScript</th>
+        </tr>
+
+        <tr class="judul">
+            <th>Initial</th>
+            <th>Final</th>
+            <th>Initial</th>
+            <th>Final</th>
+            <th>Initial</th>
+            <th>Final</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Bill</td>
+            <td>80</td>
+            <td>90</td>
+            <td>78</td>
+            <td>85</td>
+            <td>85</td>
+            <td>90</td>
+            <td>Lulus</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Budi</td>
+            <td>78</td>
+            <td>90</td>
+            <td>88</td>
+            <td>90</td>
+            <td>80</td>
+            <td>88</td>
+            <td>Lulus</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Abde</td>
+            <td>82</td>
+            <td>89</td>
+            <td>84</td>
+            <td>87</td>
+            <td>84</td>
+            <td>90</td>
+            <td>Lulus</td>
+        </tr>
+    </table>
+</body>
+</html>
